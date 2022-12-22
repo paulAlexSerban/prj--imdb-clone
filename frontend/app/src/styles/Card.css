@@ -1,0 +1,31 @@
+.card__container {
+  max-width: 150px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+  margin: 10px;
+}
+
+.card__container:hover {
+  transform: scale(1.1);
+}
+
+.image__box {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image__box img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+h4 {
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0;
+  margin-top: 5px;
+  color: rgb(125, 125, 125);
+}
